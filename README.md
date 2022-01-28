@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site]()
+- Live Site URL: [Live site](https://rutc9.github.io/FEM-time-tracking-dashboard-main/)
 - Solution URL: [Solution on FEM]()
 
 ### Built with
