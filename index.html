@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="report-card-wrapper every-card-properties">
+        <div class="report-info-wrapper">
+          <img src="./images/image-jeremy.png" alt="" />
+          <p>
+            Report for <br />
+            <span class="name-span">Jeremy Robson</span>
+          </p>
+        </div>
+        <div class="report-timespan">
+          <p class="timespan-menu-item" id="daily">Daily</p>
+          <p class="timespan-menu-item" id="weekly">Weekly</p>
+          <p class="timespan-menu-item" id="monthly">Monthly</p>
+        </div>
+      </div>
+      <div class="activity-cards">
+        <div class="work-card-wrapper every-card-properties">
+          <div class="every-time-display">
+            <h2>Work</h2>
+            <img src="/images/icon-ellipsis.svg" alt="" />
+            <p class="current-time" id="workp1"></p>
+            <p class="previous-time" id="workp2"></p>
+          </div>
+        </div>
+        <div class="play-card-wrapper every-card-properties">
+          <div class="every-time-display">
+            <h2>Play</h2>
+            <img src="/images/icon-ellipsis.svg" alt="" />
+            <p class="current-time" id="playp1"></p>
+            <p class="previous-time" id="playp2"></p>
+          </div>
+        </div>
+        <div class="study-card-wrapper every-card-properties">
+          <div class="every-time-display">
+            <h2>Study</h2>
+            <img src="/images/icon-ellipsis.svg" alt="" />
+            <p class="current-time" id="studyp1"></p>
+            <p class="previous-time" id="studyp2"></p>
+          </div>
+        </div>
+        <div class="excercise-card-wrapper every-card-properties">
+          <div class="every-time-display">
+            <h2>Exercise</h2>
+            <img src="/images/icon-ellipsis.svg" alt="" />
+            <p class="current-time" id="exercisep1"></p>
+            <p class="previous-time" id="exercisep2"></p>
+          </div>
+        </div>
+        <div class="Social-card-wrapper every-card-properties">
+          <div class="every-time-display">
+            <h2>Social</h2>
+            <img src="/images/icon-ellipsis.svg" alt="" />
+            <p class="current-time" id="socialp1"></p>
+            <p class="previous-time" id="socialp2"></p>
+          </div>
+        </div>
+        <div class="Selfcare-card-wrapper every-card-properties">
+          <div class="every-time-display">
+            <h2>Self Care</h2>
+            <img src="/images/icon-ellipsis.svg" alt="" />
+            <p class="current-time" id="selfcarep1"></p>
+            <p class="previous-time" id="selfcarep2"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
